@@ -1,9 +1,9 @@
 data:
-  train_batch_size: 256
+  train_batch_size: 4
   micro_batch_size: null # will be deprecated, use micro_batch_size_per_gpu
   micro_batch_size_per_gpu: 4  # this is also val batch size
-  train_files: ~/data/gsm8k/train.parquet
-  val_files: ~/data/gsm8k/test.parquet
+  train_files: /content/gsm8k/train.parquet
+  val_files: null
   # Single-turn settings
   prompt_key: question
   response_key: answer
